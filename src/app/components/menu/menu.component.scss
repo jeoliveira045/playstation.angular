@@ -1,0 +1,95 @@
+.sony-bar{
+    width:100%;
+    height:2rem;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    width: 70px;
+}
+
+.menu{
+    display: flex;
+    margin: 0 2rem;
+    align-items: center;
+    justify-content: space-between;
+    .menu-list-element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .menu-list{
+            .menu-item{
+                display:inline-block;
+                padding: 0 1rem;
+                font-size: 1.2rem;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+    }
+    .menu-init-session-search-element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .init-session-button{
+            margin: 5px 1rem;
+            padding: 3px 0.5rem;
+            border-style: none;
+            color: white;
+            background-color: #0070CC;
+            border-radius: 20px;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+        .init-session-button:hover{
+            background-color: #004680;
+        }
+        .search-input{
+            width: 12rem;
+            height: 2rem;
+            cursor: pointer;
+            border: 1px solid #cecece;
+        }
+        .search-input:hover{
+            border: 1px solid black;
+            box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+        }
+        .search-input::placeholder{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+        }
+    }
+}
+.menu-store-elements{
+    position: relative;
+    box-shadow: 0px 0.5rem 1rem rgba(0,0,0,0.2);
+    .menu-store-image{
+        img{
+            position: absolute;
+            left: 10px;
+            top: 0
+        }
+    }
+    .menu-store{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .menu-store-list{
+            list-style: none;
+            .menu-store-item{
+                display:inline-block;
+                padding: 1rem;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+    }
+}

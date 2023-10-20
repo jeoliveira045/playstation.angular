@@ -1,0 +1,20 @@
+.events{
+    margin: 0 2rem 2rem;
+    top: 70rem;
+    .event-list{
+        position: static;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .event-item{
+            width: 30rem;
+            margin: 0.25rem 0.5rem;
+            cursor: pointer;
+            .event-image{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+}

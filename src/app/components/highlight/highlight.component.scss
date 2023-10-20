@@ -1,0 +1,68 @@
+.highlight{
+    margin-bottom:2rem; 
+    box-shadow: 0 1rem 1rem rgb(0,0,0,0.1);
+    .highlight-show{
+        background: radial-gradient(circle at center, rgb(211, 0, 0), rgb(71, 0, 0));
+        .highlight-items{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            .highlight-item-logo{
+                width: 25%;
+                .logo-spiderman{
+                    width: 100%;
+                }
+                
+            }
+            .highlight-item-spiders{
+                width:25%;
+                .spiders{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .highlight-details{
+        margin: 3rem 7rem;
+        padding-bottom: 2rem;
+        .title-and-button{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+            .highlight-title{
+                h1{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: lighter;
+                    color: #6e6e6e;
+                    font-size: 2.3rem;
+                }
+            }
+            .highlight-button{
+                .button{
+                    padding: 1rem;
+                    border-style: none;
+                    border-radius: 30px;
+                    font-size: 1.5rem;
+                    color: white;
+                    background-color: #0070CC;
+                    font-family: Arial, Helvetica, sans-serif;
+                    cursor: pointer
+                }
+                .button:hover{
+                    background-color: #003d6e;
+                }
+            }
+        }
+        .highlight-description{
+            p{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: lighter;
+                color: #6e6e6e;
+            }
+        }
+    }
+
+}
+
