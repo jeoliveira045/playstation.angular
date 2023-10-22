@@ -1,14 +1,16 @@
 <div class="games-title" >
-    <h1>Os 10 Melhores Jogos no seu País</h1>
+    <h1>{{gametitle}}</h1>
     <div class="games-list" [@leftRight]="leftRight? 'left': 'right'" >
-        <div class="gamecard" *ngFor="let item of imagesGameCardArray" >
+        <div class="gamecard" *ngFor="let item of gameArray" >
             <img class="game-image" src="{{item}}" />
         </div>
     </div>
 </div>
 <div class="nextButton-element" *ngIf="rightButton">
-    <button class="nextButton" (click)="GameCardListTransitionOnClick()"><mat-icon>arrow_right_alt</mat-icon></button>
+    <button class="nextButton" (click)="GameCardListTransitionOnClick()"><mat-icon>keyboard_arrow_right</mat-icon></button>
 </div>
 <div class="prevButton-element" *ngIf="leftButton">
-    <button class="prevButton" (click)="GameCardListTransitionOnClick()"><mat-icon>arrow_left_alt</mat-icon></button>
+    <button class="prevButton" (click)="GameCardListTransitionOnClick()"><mat-icon>keyboard_arrow_left</mat-icon></button>
 </div>
+
+

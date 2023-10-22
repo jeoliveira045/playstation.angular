@@ -2,5 +2,7 @@
 <div class="main">
     <app-highlight></app-highlight>
     <app-events></app-events>
-    <app-games></app-games>
+    <app-games gametitle="Os 10 Melhores Jogos no seu País" [gameArray]="arrayTop10"></app-games>
+    <app-games gametitle="Novos Jogos" [gameArray]="arrayNewGames"></app-games>
+    <app-games gametitle="Pré-Venda" [gameArray]="arrayPreVenda"></app-games>
 </div>

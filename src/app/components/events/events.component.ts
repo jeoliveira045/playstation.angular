@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class EventsComponent {
   imagesArray: Array<string> = [];
 
-  imagesGameCardArray: Array<string> = [];
+  // imagesGameCardArray: Array<string> = [];
 
-  transition: {[klass:string]:any} = {'transform': 'translateX(100%)','transition': 'transform 1s ease'};
+  // transition: {[klass:string]:any} = {'transform': 'translateX(100%)','transition': 'transform 1s ease'};
 
   constructor(){
     this.imagesArray.push("../../assets/images/2d37a11a-bd40-4a2f-995a-4557571f1368.avif")
@@ -20,16 +20,16 @@ export class EventsComponent {
     this.imagesArray.push("../../assets/images/6ab1ae5a-e16b-428a-8932-ad314d02fc47.avif")
     this.imagesArray.push("../../assets/images/7db030a8-7ef6-4eed-9865-62e210332c46.avif")
 
-    this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.avif")
-    this.imagesGameCardArray.push("../../assets/images/game-cards/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/c21c0669eaca7f3e02c41cad5e1a20f867aafcf14104f046.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.avif")
+    // this.imagesGameCardArray.push("../../assets/images/game-cards/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.avif")
 
   }
 
